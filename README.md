@@ -1,10 +1,10 @@
-# Boxvar
+# Boxis
 
-Boxvar is an OpenType Variable font designed for testing.
+Boxis (box + axis) is an OpenType Variable font designed for testing OpenType Variable fonts. You can use it to create dummy text that will not appear in browsers that do not support [OpenType Font Variations](https://www.microsoft.com/en-us/Typography/OpenTypeSpecification.aspx).
 
 ## Axes
 
-Boxvar currently has four axes:
+Boxis currently has four axes:
 
 * wdth: The width of the box (0 - 1000)
 * hght: The height of the box (0 - 1000, 750 cap height)
