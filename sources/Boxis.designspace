@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
-        <axis default="0" maximum="1000" minimum="0.0" name="wdth" tag="wdth" />
-        <axis default="0" maximum="250" minimum="0.0" name="desc" tag="desc" />
-        <axis default="0" maximum="1000" minimum="0.0" name="trac" tag="trac" />
-        <axis default="0" maximum="1000" minimum="0.0" name="hght" tag="hght" />
+        <axis default="0" maximum="1000" minimum="0" name="Width" tag="wdth" />
+        <axis default="0" maximum="250" minimum="0" name="Descending" tag="desc" />
+        <axis default="0" maximum="1000" minimum="0" name="Tracking" tag="trac" />
+        <axis default="0" maximum="1000" minimum="0" name="Height" tag="hght" />
     </axes>
     <sources>
-        <source familyname="Boxis" filename="Boxis-Regular.ufo" name="Boxis-Regular" stylename="Regular">
+        <source familyname="Boxis" filename="Boxis-origin.ufo" name="Boxis-origin" stylename="origin">
             <location>
                 <dimension name="wdth" xvalue="0" />
                 <dimension name="desc" xvalue="0" />
@@ -18,14 +18,6 @@
             <features copy="1" />
             <info copy="1" />
         </source>
-        <source familyname="Boxis" filename="Boxis-wdth1000.ufo" name="Boxis-wdth1000" stylename="wdth1000">
-            <location>
-                <dimension name="wdth" xvalue="1000" />
-                <dimension name="desc" xvalue="0" />
-                <dimension name="trac" xvalue="0" />
-                <dimension name="hght" xvalue="0" />
-            </location>
-        </source>
         <source familyname="Boxis" filename="Boxis-desc250.ufo" name="Boxis-desc250" stylename="desc250">
             <location>
                 <dimension name="wdth" xvalue="0" />
@@ -34,11 +26,12 @@
                 <dimension name="hght" xvalue="0" />
             </location>
         </source>
-        <source familyname="Boxis" filename="Boxis-trac1000.ufo" name="Boxis-trac1000" stylename="trac1000">
+
+        <source familyname="Boxis" filename="Boxis-wdth1000.ufo" name="Boxis-wdth1000" stylename="wdth1000">
             <location>
-                <dimension name="wdth" xvalue="0" />
+                <dimension name="wdth" xvalue="1000" />
                 <dimension name="desc" xvalue="0" />
-                <dimension name="trac" xvalue="1000" />
+                <dimension name="trac" xvalue="0" />
                 <dimension name="hght" xvalue="0" />
             </location>
         </source>
@@ -48,6 +41,14 @@
                 <dimension name="desc" xvalue="0" />
                 <dimension name="trac" xvalue="0" />
                 <dimension name="hght" xvalue="1000" />
+            </location>
+        </source>
+        <source familyname="Boxis" filename="Boxis-trac1000.ufo" name="Boxis-trac1000" stylename="trac1000">
+            <location>
+                <dimension name="wdth" xvalue="0" />
+                <dimension name="desc" xvalue="0" />
+                <dimension name="trac" xvalue="1000" />
+                <dimension name="hght" xvalue="0" />
             </location>
         </source>
     </sources>
