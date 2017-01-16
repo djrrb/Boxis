@@ -7,14 +7,7 @@
         <axis default="750" maximum="1000" minimum="0" name="Height" tag="hght" />
     </axes>
     <sources>
-        <source familyname="Boxis" filename="Boxis-origin.ufo" name="Boxis-origin" stylename="origin">
-            <location>
-                <dimension name="wdth" xvalue="0" />
-                <dimension name="desc" xvalue="0" />
-                <dimension name="trac" xvalue="0" />
-                <dimension name="hght" xvalue="0" />
-            </location>
-        </source>
+
         <source familyname="Boxis" filename="Boxis-hght1000.ufo" name="Boxis-hght1000" stylename="hght1000">
             <location>
                 <dimension name="wdth" xvalue="0" />
